@@ -1,6 +1,6 @@
 // テキスト「アニメーションの基本」
 let x, y, vx, vy;
-const g = 1; // 重力加速度
+const g = 5; // 重力加速度
 const vyMax = 30;
 
 function setup(){
@@ -21,10 +21,10 @@ function draw(){
   vy = constrain(vy + g, -vyMax, vyMax);
 
   // 端の処理パターン (1) 反対側から出てくる
-  // if(x > width){ x = 0; }
-  // else if(x < 0){ x = width; }
-  // if(y > height){ y = 0; }
-  // if(y < 0){ y = height; }
+   //if(x > width){ x = 0; }
+   //else if(x < 0){ x = width; }
+   //if(y > height){ y = 0; }
+   //if(y < 0){ y = height; }
 
 　// 端の処理パターン (2) 跳ね返る
   if(x < 0 || x > width){ vx = -1 * vx; }
