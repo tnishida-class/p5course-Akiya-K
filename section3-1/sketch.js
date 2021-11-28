@@ -14,3 +14,15 @@ function draw(){
   }
   text("center!", width * 0.5, height * 0.5);
 }
+
+
+if(count > 10 && count < 25 ){
+ ellipse(width / 2, height / 2, 15-count);
+}
+else if(count > 25 && count < 35 ){
+ ellipse(width / 2, height / 2, 7.5-count);
+}
+else{
+ ellipse(width/2, height/2, count)
+}
+}
