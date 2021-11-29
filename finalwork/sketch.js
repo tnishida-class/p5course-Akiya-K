@@ -12,12 +12,12 @@ function windowResized(){
 }
 
 const x = new Array(5).fill(255);
-const y = new Array(50).fill(255);
-const vx = new Array(50).fill(255);
-const vy = new Array(50).fill(255);
+const y = new Array(5).fill(255);
+const vx = new Array(5).fill(255);
+const vy = new Array(5).fill(255);
 
 function draw() {
-    count++;
+    count ++;
     background(0);
     x[0] = mouseX;
     y[0] = mouseY;
