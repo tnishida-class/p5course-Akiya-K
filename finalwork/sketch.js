@@ -12,6 +12,7 @@ function windowResized(){
 }
 
 const x = new Array(5).fill(255);
+const y = new Array(50).fill(255);
 const vx = new Array(50).fill(255);
 const vy = new Array(50).fill(255);
 
